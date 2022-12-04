@@ -20,7 +20,7 @@ void mainLoop(SendPort sendPort) async {
     }
 
     if (_timerWatch.elapsedMilliseconds>_second) {
-      print('${DateTime.now()} FPS: $_updates');
+      // print('${DateTime.now()} FPS: $_updates');
       _updates = 0;
       _timerWatch.reset();
           }
